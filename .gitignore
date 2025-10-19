@@ -1,0 +1,61 @@
+# ===========================
+# LaTeX / pLaTeX ignore list
+# ===========================
+
+# LaTeX intermediate and output files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.log
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.out
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.dvi
+*.pdf
+
+# Temporary files created by editors
+*~
+*.swp
+*.bak
+*.tmp
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LaTeXmk generated files
+latexmkrc
+*.latexmk
+*.fls
+
+# Specific for TeX Live build artifacts
+*.fmt
+*.fot
+*.cb
+*.cb2
+
+# Auto-generated figures
+*.eps-converted-to.pdf
+
+# Logs and caches from previewers
+*.synctex.gz(busy)
+*.pdfsync
+*.ps
+*.idx
+*.ilg
+*.ind
+
+# ===========================
+# End of file
+# ===========================
